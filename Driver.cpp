@@ -1,7 +1,7 @@
-// Your Name
+// Mahdi Ashrfee
 // CS132-02
 // Lab 1
-// Todays Date
+// May 30
 
 #include <iostream>
 #include <string>
@@ -9,6 +9,42 @@
 using namespace std; 
 
 //create the class definition here
+class partTimeEmployee(){
+	public:
+
+		partTimeEmployee(){
+			payRate = 0;
+			hoursWorked = 0;
+		}
+		void print(){
+			
+			
+
+		}
+
+		int calculatePay(int ammount){
+			
+
+
+		}
+		void setName(string first, string last){
+
+
+
+		}
+		int setRate(int ammount){
+
+
+
+		}
+	private:
+
+		string first name, last name;
+		int  payRate,hoursWorked;
+
+
+
+};
  
    
 int main()
