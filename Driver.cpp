@@ -3,55 +3,9 @@
 // Lab 1
 // May 30
 
-#include <iostream>
-#include <string>
-
-using namespace std; 
-
+#include "Calculate.h"
 //create the class definition here
-class partTimeEmployee{
-	public:
 
-		partTimeEmployee(){
-			payRate = 0;
-			hoursWorked = 0;
-		}
-		void print(){
-			
-			
-
-		}
-
-		int calculatePay(int ammount){
-			
-
-
-		}
-		void setName(string first, string last){
-
-
-
-		}
-		int setRate(int ammount){
-
-
-
-		}
-		int setHours(int ammount){
-
-
-
-		}
-	private:
-
-		string first_name, last_name;
-		int  payRate,hoursWorked;
-
-
-
-};
- 
-   
 int main()
 {
 	string fName, lName;
