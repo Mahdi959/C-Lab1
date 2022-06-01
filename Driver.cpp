@@ -9,7 +9,7 @@
 using namespace std; 
 
 //create the class definition here
-class partTimeEmployee(){
+class partTimeEmployee{
 	public:
 
 		partTimeEmployee(){
@@ -37,9 +37,14 @@ class partTimeEmployee(){
 
 
 		}
+		int setHours(int ammount){
+
+
+
+		}
 	private:
 
-		string first name, last name;
+		string first_name, last_name;
 		int  payRate,hoursWorked;
 
 
